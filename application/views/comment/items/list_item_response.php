@@ -1,0 +1,1 @@
+<div style="margin-left: 65px; margin-top: 10px; width: 400px;">	<span class="avatar">image</span> <a href="#">user</a><br /> <span>mon		message</span><br /></div>

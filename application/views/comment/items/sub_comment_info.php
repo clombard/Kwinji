@@ -1,0 +1,1 @@
+<li>	<?php echo Html::anchor("#", __("View all :x comments", $nb_other_comment));?></li>

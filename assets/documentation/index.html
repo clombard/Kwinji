@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org" />
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+
+    <title>Streamlined - Contact Management/CRM Template by VivantDesigns Documentation</title><!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print" /><!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection" />
+    <style type="text/css" media="screen">
+/*<![CDATA[*/
+    p, table, hr, .box { margin-bottom:25px; }
+    .box p { margin-bottom:10px; }
+    /*]]>*/
+    </style>
+    <link rel="stylesheet" media="screen" href="../css/messages.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="../css/forms.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="../css/tables.css" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.tools.min.js">
+</script>
+    <script type="text/javascript" src="../js/global.js">
+</script>
+    <style type="text/css">
+/*<![CDATA[*/
+    body {
+    font: 12px/120% 'Lucida Grande', 'Lucida Sans Unicode', 'Helvetica Neue', 'Helvetica', Arial, Verdana, sans-serif;
+    }
+    .html_code {
+    background-color:#CEDCEC;
+    border:1px solid #000000;
+    color:#000000;
+    font:12px Verdana,Arial,Helvetica,sans-serif;
+    padding:4px;
+    text-align:left;
+
+    padding-left: 20px;
+    }
+    #overlay {
+    display: none;
+    }
+    /*]]>*/
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Streamlined Documentation by VivantDesigns v1.0</h3>
+        <hr />
+
+        <h1>Streamlined - Contact Management/CRM Template</h1>
+
+        <div class="borderTop">
+            <div class="span-6 colborder info prepend-1">
+                <p class="prepend-top"><strong>Created: January 08, 2010<br />
+                By: VivantDesigns<br />
+                Email: <a href="mailto:admin@vivantdesigns.com">admin@vivantdesigns.com</a></strong></p>
+            </div><!-- end div .span-6 -->
+
+            <div class="span-12 last">
+                <p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/vivantdesigns">here</a>. Thanks so much!</p>
+            </div>
+        </div><!-- end div .borderTop -->
+        <hr />
+        <!-- Main Section -->
+
+        <h4>Streamlined is an admin template for Contact Management and CRM applications. It includes element styles for buttons, tabs, tooltips, progress bar, and others.</h4>
+
+        <p>If you are creating an hr application, CRM, or a contact/task manager, this is the perfect template to use</p>
+
+        <h2 id="toc" class="alt">Table of Contents</h2>
+
+        <ol class="alpha">
+            <li><a href="#htmlStructure">HTML Structure</a></li>
+
+            <li><a href="#cssFiles">CSS Files and Structure</a></li>
+
+            <li><a href="#javascript">Javascript</a></li>
+
+            <li><a href="#libraries">Libraries</a></li>
+
+            <li><a href="#credits">Sources and credits</a></li>
+        </ol><br />
+
+        <h3 id="htmlStructure">HTML Structure</h3>
+        <hr />
+
+        <div class="html_code">
+            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;!-- Header metatags --&gt;
+&lt;!-- Page Title --&gt;
+&lt;!-- Stylesheets --&gt;
+&lt;!-- jQuery with plugins --&gt;
+&lt;script type="text/javascript"&gt;
+$(document).ready(function(){
+
+    // On load javascripts
+
+});
+&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div id="wrapper"&gt;
+        &lt;!-- Header --&gt;
+        &lt;header&gt;
+        &lt;/header&gt;
+        &lt;!-- End of Header --&gt;
+        
+        &lt;!-- Page content --&gt;
+        &lt;section&gt;
+            &lt;div class="container_8 clearfix"&gt;
+                &lt;!--  Sidebar --&gt;
+                &lt;aside class="grid_1"&gt;
+                    &lt;nav&gt;
+                    &lt;/nav&gt;
+                &lt;/aside&gt;
+                &lt;!--  Sidebar End --&gt;
+            
+                &lt;!--  Main Section --&gt;
+                &lt;section class="main-section grid_7"&gt;
+                &lt;/section&gt;
+                &lt;!--  Main Section End --&gt;
+            &lt;/div&gt;
+            &lt;div id="push"&gt; &lt;/div&gt;
+        &lt;/section&gt;
+        &lt;!-- End of Page content --&gt;
+    &lt;/div&gt;
+        
+    &lt;!-- Footer --&gt;
+    &lt;footer&gt; &lt;/footer&gt;
+    &lt;!-- End of Footer--&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                            
+</pre>
+        </div>
+        <br />
+
+        <h3 id="cssFiles"><strong>CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+        <hr />
+
+        <p>The css files used in this template are:</p>
+
+        <ul>
+            <li><a href="#reset-css">reset.css</a></li>
+            <li><a href="#style-css">style.css</a></li>
+            <li><a href="#grid-css">grid.css</a></li>
+            <li><a href="#messages-css">messages.css</a></li>
+            <li><a href="#forms-css">forms.css</a></li>
+            <li><a href="#tables-css">tables.css</a></li>
+            <li><a href="#ie-css">ie.css</a></li>
+            <li><a href="#custom-css">custom.css</a></li>
+        </ul>
+
+        <p>These styling sheets are divided into sections for easier editing. If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p><br />
+
+        <h4 class="code"><a name="reset-css" id="reset-css">reset.css</a></h4>
+
+        <p>This contains a generic reset rules for all browsers.</p><br />
+
+        <h4 class="code"><a name="style-css" id="style-css">style.css</a></h4>
+
+        <p>This stylesheet contains specific stylings for the template structure. It includes the base styles, text styles, header and footer.</p>
+
+        <div class="html_code">
+            <pre>
+/**  
+* Header  
+*/
+  -------- codes here
+        
+/**  
+* Content  
+*/
+  ------ codes here
+        
+/**  
+* Footer  
+*/
+  ------ codes here
+
+etc...
+                            
+</pre>
+        </div><br />
+
+        <h4 class="code"><a name="grid-css" id="grid-css">grid.css</a></h4>
+
+        <p>This stylesheet implements a fixed width layout of 960px and is similar to many frameworks you can find on the Internet. Based on the 960 grid framework.</p>
+
+        <h4 class="code"><a name="messages-css" id="messages-css">messages.css</a></h4>
+
+        <p>This contains styling for the template messages such as info-message, error-message, success-message and warning messages</p>
+
+        <h4>Sample Usage:</h4>
+
+        <div class="html_code">
+            <pre>
+&lt;div class="message info"&gt; This is your info message &lt;/div&gt;
+</pre>
+        </div><br />
+
+        <div class="message info">
+            This is your info message
+        </div><br />
+
+        <div class="html_code">
+            <pre>
+&lt;div class="message error"&gt;
+    &lt;h3&gt;Error!&lt;/h3&gt;
+    &lt;p&gt;
+        This is an error message.
+    &lt;/p&gt;
+&lt;/div&gt;
+</pre>
+        </div><br />
+
+        <div class="message error">
+            <h3>Error!</h3>
+
+            <p>This is an error message.</p>
+        </div><br />
+
+        <div class="html_code">
+            <pre>
+&lt;div class="message info closeable"&gt;
+    &lt;h3&gt;Info!&lt;/h3&gt;
+    &lt;p&gt;
+        This is a closeable info box.
+    &lt;/p&gt;
+&lt;/div&gt;
+</pre>
+        </div><br />
+
+        <div class="message info closeable">
+            <h3>Info!</h3>
+
+            <p>This is a closeable info box.</p>
+        </div><br />
+
+        <h4 class="code"><a name="forms-css" id="forms-css">forms.css</a></h4>
+
+        <p>Forms.css contains all the needed styling for the template's form such as styles for buttons, input , textarea, select, pagination, widgets, tabs, accordion and more.</p>
+
+        <h4>Sample Usage:</h4>
+
+        <div class="html_code">
+            <pre>
+&lt;button class="button button-orange"&gt; Button Text &lt;/button&gt;
+&lt;button class="button button-green"&gt; Green Button &lt;/button&gt;
+
+&lt;a href="#" class="button button-gray"&gt; Gray Button &lt;/a&gt;
+&lt;a href="#" class="button button-blue"&gt; Blue Button &lt;/a&gt;
+</pre>
+        </div><br />
+        <button class="button button-orange">Button Text</button>
+        <button class="button button-green">Green Button</button>
+        <a href="#" class="button button-gray">Gray Button</a>
+        <a href="#" class="button button-blue">Blue Button</a>
+        <br />
+        <br />
+
+        <h4 class="code"><a name="tables-css" id="tables-css">tables.css</a></h4>
+
+        <p>tables.css contains all the necessary styling for the tables. (More Examples on tables.html)</p>
+
+        <h4>Here are some example usages for the table.</h4>
+
+        <p><strong>Automatically enable pagination on a table</strong><br />
+        To automatically paginate a table, add the <span class="code">paginate</span> class</p>
+
+        <div class="html_code">
+            <pre>
+&lt;table class="paginate"&gt;
+&lt;/table&gt;
+</pre>
+        </div>
+
+        <p><strong>Manually enable pagination on a table</strong></p>
+
+        <div class="html_code">
+            <pre>
+&lt;table class="mytableclass"&gt;
+&lt;/table&gt;
+</pre>
+        </div>
+
+        <p>Add the following javascript</p>
+
+        <div class="html_code">
+            <pre>
+$(document).ready(function(){
+    $("table.mytableclass").paginate({rows: 10, buttonClass: 'button-blue'});
+}); 
+</pre>
+        </div><br />
+        <span class="code">rows:</span> The number of rows to show per page<br />
+        <span class="code">buttonClass:</span> button-gray, button-blue, button-green, button-orange
+
+        <p><strong>Automatically enable sorting on a table</strong><br />
+        To automatically allow column sorting on a table, add the sortable class</p>
+
+        <div class="html_code">
+            <pre>
+&lt;table class="sortable"&gt;
+&lt;/table&gt;
+</pre>
+        </div>
+
+        <p><strong>Manually enable sorting on a table</strong></p>
+
+        <div class="html_code">
+            <pre>
+&lt;table class="mytableclass"&gt;
+&lt;/table&gt;
+</pre>
+        </div>
+
+        <p>Add the following javascript</p>
+
+        <div class="html_code">
+            <pre>
+$(document).ready(function(){
+    $("table.mytableclass").tablesort();
+});
+</pre>
+        </div><br />
+
+        <h4 class="code"><a name="ie-css" id="ie-css">ie.css</a></h4>
+
+        <p>This includes Internet Explorer css fixes.</p>
+
+        <h4 class="code"><a name="custom-css" id="custom-css">custom.css</a></h4>
+
+        <p>To easily change the background colors for the header and footer, just update the values in this file and include it in your html file right after all the default css includes.</p>
+
+        <h3 id="javascript"><strong>Javascript</strong> - <a href="#toc">top</a></h3>
+        <hr />
+
+        <p>This template uses the following javascript files:</p>
+
+        <ul>
+            <li><a href="#global-js">global.js</a></li>
+            <li><a href="#html5-js">html5.js</a></li>
+            <li><a href="#IE9-js">IE9.js</a></li>
+            <li><a href="#ie-js">ie.js</a></li>
+            <li><a href="#PIE-js">PIE.js</a></li>
+            <li><a href="#jquery-tables-js">jquery.tables.js</a></li>
+            <li><a href="#jquery-tools-min-js">jquery.tools.min.js</a></li>
+            <li><a href="#jquery-ui-min-js">jquery.ui.min.js</a></li>
+        </ul><br />
+
+        <h4 class="code"><a name="global-js" id="global-js">global.js</a></h4>
+
+        <p>This include all the necessary scripts needed for all the pages.</p><br />
+
+        <h4 class="code"><a name="html5-js" id="html5-js">html5.js</a></h4>
+
+        <p>HTML5 JavaScript shiv for IE to recognise and style the HTML5 elements. It is a way for non-modern browsers to acknowledge html5 elements such as <span class="code">&lt;article&gt;</span>,<span class="code">&lt;section&gt;</span>, etc.</p>
+
+        <p><a href="http://code.google.com/p/html5shiv/">View Website</a></p><br />
+
+        <h4 class="code"><a name="IE9-js" id="IE9-js">IE9.js</a></h4>
+
+        <p>IE9.js is a JavaScript library to make Microsoft Internet Explorer behave like a standards-compliant browser. It fixes many HTML and CSS issues and makes transparent PNG work correctly under IE5 and IE6.</p>
+
+        <p><a href="http://code.google.com/p/ie7-js/">Visit Website</a></p><br />
+
+        <h4 class="code"><a name="ie-js" id="ie-js">ie.js</a></h4>
+
+        <p>Fixes button mouse actions in IE, and makes use of PIE.js to enable rounded corners, box-shadows and linear-gradients in IE.</p><br />
+
+        <h4 class="code"><a name="PIE-js" id="PIE-js">PIE.js</a></h4>
+
+        <p>PIE makes Internet Explorer 6-8 capable of rendering several of the most useful CSS3 decoration features.</p>
+
+        <p><a href="http://css3pie.com/">Visit Website</a></p><br />
+
+        <h4 class="code"><a name="jquery-tables-js" id="jquery-tables-js">jquery.tables.js</a></h4>
+
+        <p>Tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. It has many useful features including:</p>
+
+        <ul>
+            <li>Multi-column sorting</li>
+
+            <li>Parsers for sorting text, URIs, integers, currency, floats, IP addresses, dates (ISO, long and short formats), time. Add your own easily</li>
+
+            <li>Support secondary "hidden" sorting (e.g., maintain alphabetical sort when sorting on other criteria)</li>
+
+            <li>Extensibility via widget system</li>
+
+            <li>Cross-browser: IE 6.0+, FF 2+, Safari 2.0+, Opera 9.0+</li>
+
+            <li>Small code size</li>
+        </ul><br />
+
+        <h4 class="code"><a name="jquery-tools-min-js" id="jquery-tools-min-js">jquery.tools.min.js</a></h4>
+
+        <p>jQuery Tools is a collection of the most important user interface components for the web. These are tabs, accordions, tooltips, overlays, exposing effects and scrollables. It is minimized and/or packed to reduce the size of the files. It already comes with the jquery javascript library.</p>
+
+        <h4 class="code"><a name="jquery-ui-min-js" id="jquery-ui-min-js">jquery.ui.min.js</a></h4>
+
+        <p>Implements drag and drop functionality and basic mouse interactions</p>
+
+        <p><a href="http://flowplayer.org/tools/">Visit Website</a></p><br />
+
+        <h3 id="libraries"><strong>Libraries</strong> - <a href="#toc">top</a></h3>
+
+        <p>This template uses the following libraries:</p>
+
+        <ul>
+            <li><a href="http://markitup.jaysalvat.com/home/">markItUp</a> - a JavaScript plugin built on the jQuery library. It allows you to turn any textarea into a markup editor. Html, Textile, Wiki Syntax, Markdown, BBcode or even your own Markup system can be easily implemented.</li>
+            <li><a href="http://arshaw.com/fullcalendar/">FullCalendar</a> - FullCalendar is a jQuery plugin that provides a full-sized, drag & drop calendar like the one below. It uses AJAX to fetch events on-the-fly for each month and is easily configured to use your own feed format (an extension is provided for Google Calendar). It is visually customizable and exposes hooks for user-triggered events (like clicking or dragging an event). It is open source and dual licensed under the MIT or GPL Version 2 licenses.</li>
+        </ul>
+
+        <h3 id="credits"><strong>Sources and credits</strong> - <a href="#toc">top</a></h3>
+        <hr />
+
+        <p>The jQuery and its plugins are licensed under the MIT, GPL Version 2 or BSD licenses. You can read these licenses here:</p>
+
+        <ul>
+            <li><a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a></li>
+
+            <li><a href="http://www.opensource.org/licenses/gpl-license.php">http://www.opensource.org/licenses/gpl-license.php</a></li>
+        </ul>
+
+        <p>Icons used</p>
+
+        <ul>
+            <li><a href="http://famfamfam.com/">Famfamfam Icons</a></li>
+
+            <li><a href="http://www.woothemes.com/2009/09/woofunction-178-amazing-web-design-icons/">Woofunction Icons</a></li>
+        </ul>
+        <hr />
+
+        <p>Thank you for purchasing my template. If you have any questions not found on this documentation, please feel free to contact me via my user page contact. Thank you!</p>
+
+        <p class="append-bottom alt large"><a href="http://themeforest.net/user/vivantdesigns">VivantDesigns</a></p>
+
+        <p><a href="#toc">Go To Table of Contents</a></p>
+        <hr class="space" />
+    </div><!-- end div .container -->
+</body>
+</html>

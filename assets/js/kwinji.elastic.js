@@ -1,0 +1,1 @@
+$(document).ready(function() {	// AUTO RESIZE DE LA SAISIE DES NEWS	$('.auto-resize').elastic();});

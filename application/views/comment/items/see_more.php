@@ -1,0 +1,1 @@
+<li class="see_more">	<?php echo Html::anchor("ajax/see_more", __("Old Post"), array("id" => "OldPost", "data-value" => $bottom_id)); ?></li>

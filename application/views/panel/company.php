@@ -1,0 +1,1 @@
+<h3><?php echo __('More about :company_name', array(':company_name' => $company['name'])); ?></h3>

@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+/*---------------------------------------------------------------------
+
+Template Name: 	Administry
+Version:	 	0.1
+Release Date: 	April 06, 2011
+
+File:       	kwinji.css
+Updated:    	2011-04-06
+
+Copyright (c) 2011 Lombard Cedric - http://themeforest.net/user/zoranjuric
+
+-----------------------------------------------------------------------*/
+table.no-style tr:hover { background-color: #F3F3F3; }
+a.no-style { text-decoration: none; border-bottom: 0px !important; background: none !important; }
+#page .card .content { border: 1px solid #ddd; margin-bottom: 0;}
+#page .card .hallow { background: url(../img/shadow-card.png) center top no-repeat; }
+img.avatar {
+	float:right;
+	background:#fff;
+	padding:4px;
+}
+
+#page .card em a { color: #555; }
+#page .card a.big { color: #666; text-shadow: 1px 1px 1px white; }
+#page .card em a { color: #555; }
+
+#page .card a {
+	border-bottom: 1px dashed #ccc;
+}
+#page .card a:hover {
+	text-decoration: underline;
+	border-bottom: 0;
+	background: #FFF;
+}
+
+#page #box-icon-toolbar {
+	position: relative;
+	display: none;
+	background:#ddd;
+	border-top:1px solid #ccc;
+	height:20px;
+	padding: 5px ;
+	margin: 5px -8px -8px -8px;
+}
+#page #box-icon-toolbar .icon {
+	margin: 2px;
+	float: right;
+}
+/*--------------------------------------------------------------------
+	USER BUTTON BAR
+----------------------------------------------------------------------*/
+	/*
+.btn-bar #visu-resume { -moz-border-radius: 4px 0 0 4px !important; border-radius: 4px 0 0 4px !important; -webkit-border-radius: 4px 0 0 4px !important; }
+.btn-bar #edit-resume { -moz-border-radius: 4px 0 0 4px !important; border-radius: 4px 0 0 4px !important; -webkit-border-radius: 4px 0 0 4px !important; }
+*/
+
+/*--------------------------------------------------------------------
+	CONTACT PANEL
+----------------------------------------------------------------------*/
+.contact .icon { float: right; }
+
+/*--------------------------------------------------------------------
+	SHOW / HIDE
+----------------------------------------------------------------------*/
+.showHideArea { display: none; }
